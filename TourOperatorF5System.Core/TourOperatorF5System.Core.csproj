@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TourOperatorF5System.Infrastructure\TourOperatorF5System.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
