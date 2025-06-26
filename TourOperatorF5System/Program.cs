@@ -1,3 +1,5 @@
+using TourOperatorF5System.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplicationDbContext(builder.Configuration);

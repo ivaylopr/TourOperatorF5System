@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using TourOperatorF5System.Data;
+using TourOperatorF5System.Infrastructure.Data;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace TourOperatorF5System.Extensions
 {
     public static class ServiceCollectionExtension
     {
